@@ -1,7 +1,9 @@
-Src/main.o: ../Src/main.c D:/21_EclipseWorkSpace/injection_iot/Inc/main.h \
+Src/HC138.o: ../Src/HC138.c \
+ D:/21_EclipseWorkSpace/injection_iot/Inc/digitalInput.h \
  D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  D:/21_EclipseWorkSpace/injection_iot/Inc/stm32f1xx_hal_conf.h \
  D:/21_EclipseWorkSpace/injection_iot/Inc/main.h \
+ D:/21_EclipseWorkSpace/injection_iot/Inc/stm32f10x_type.h \
  D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
  D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h \
  D:/21_EclipseWorkSpace/injection_iot/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
@@ -23,21 +25,17 @@ Src/main.o: ../Src/main.c D:/21_EclipseWorkSpace/injection_iot/Inc/main.h \
  D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h \
  D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
- D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- D:/21_EclipseWorkSpace/injection_iot/Inc/stm32f10x_type.h \
- D:/21_EclipseWorkSpace/injection_iot/Inc/GlabalVar.h \
- D:/21_EclipseWorkSpace/injection_iot/Inc/stm32f10x_type.h \
- D:/21_EclipseWorkSpace/injection_iot/Inc/ADS7816.h \
- D:/21_EclipseWorkSpace/injection_iot/Inc/Termo.h \
- D:/21_EclipseWorkSpace/injection_iot/Inc/digitalInput.h
+ D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 
-D:/21_EclipseWorkSpace/injection_iot/Inc/main.h:
+D:/21_EclipseWorkSpace/injection_iot/Inc/digitalInput.h:
 
 D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 
 D:/21_EclipseWorkSpace/injection_iot/Inc/stm32f1xx_hal_conf.h:
 
 D:/21_EclipseWorkSpace/injection_iot/Inc/main.h:
+
+D:/21_EclipseWorkSpace/injection_iot/Inc/stm32f10x_type.h:
 
 D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:
 
@@ -82,15 +80,3 @@ D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_
 D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 
 D:/21_EclipseWorkSpace/injection_iot/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
-
-D:/21_EclipseWorkSpace/injection_iot/Inc/stm32f10x_type.h:
-
-D:/21_EclipseWorkSpace/injection_iot/Inc/GlabalVar.h:
-
-D:/21_EclipseWorkSpace/injection_iot/Inc/stm32f10x_type.h:
-
-D:/21_EclipseWorkSpace/injection_iot/Inc/ADS7816.h:
-
-D:/21_EclipseWorkSpace/injection_iot/Inc/Termo.h:
-
-D:/21_EclipseWorkSpace/injection_iot/Inc/digitalInput.h:

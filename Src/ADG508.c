@@ -1,6 +1,5 @@
 #include <ADG508.h>
 
-
 void Init_ADG508(void)
 {
 	GPIO_InitTypeDef GPIO_InitStruct;
@@ -28,7 +27,7 @@ void Init_ADG508(void)
 	HAL_GPIO_Init(IN3_PORT, &GPIO_InitStruct);
 }
 
-void setOut(uint8_t outPutnumber)
+void setOut508A(uint8_t outPutnumber)
 {
 	if(outPutnumber & 0x01)digitalWrite3(IN1_PORT,IN1_PIN,HIGH);
 	else digitalWrite3(IN1_PORT,IN1_PIN,LOW);

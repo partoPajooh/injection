@@ -8,6 +8,7 @@ tc * ADS7816.h
 #ifndef ADS7816_H_
 #define ADS7816_H_
 #include "stm32f1xx_hal.h"
+#pragma once
 
 #define ADS_Data_PIN					GPIO_PIN_15
 #define ADS_Data_PORT					GPIOA
@@ -44,5 +45,7 @@ uint16_t read_ADS7816S(uint8_t channel);
 void Init_ADS7816(void);
 uint16_t read_ADS7816();
 uint16_t Dataread(void);
+
+
 
 #endif /* ADS7816_H_ */

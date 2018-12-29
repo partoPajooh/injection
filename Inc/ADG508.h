@@ -18,6 +18,20 @@
 
 #define digitalWrite3(PORT,PIN,VALUE)	HAL_GPIO_WritePin(PORT,PIN,VALUE)
 
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
 void Init_ADG508(void);
-void setOut(uint8_t outPutnumber);
+void setOut508A(uint8_t outPutnumber);
+
+
+#ifdef __cplusplus
+}
+#endif
+
+
 #endif /* 74ADG508_H_ */
+

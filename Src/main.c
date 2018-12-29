@@ -42,6 +42,7 @@
 #include "stm32f10x_type.h"
 #include "ADS7816.h"
 #include "Termo.h"
+#include "digitalInput.h"
 
 /* USER CODE BEGIN Includes */
 
@@ -301,6 +302,11 @@ int main(void) {
 	HAL_Delay(1000);
 
 
+
+	sprintf(tempasd,"input: %x\r\n",readDigitalInput());
+	HAL_UART_Transmit(&huart1,tempasd, 10, 100);
+	HAL_Delay(1000);
+
 	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_1);
 	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_2);
 	HAL_TIM_PWM_Start(&htim3,TIM_CHANNEL_4);
@@ -403,11 +409,6 @@ int main(void) {
 	/* Infinite loop */
 	/* USER CODE BEGIN WHILE */
 	while (1) {
-
-
-
-
-		/* USER CODE END WHILE */
 		if (mmc_key_active && memactive) {
 			// mmc_key_active=0;
 			// if(comp_calibrate(0)!=100)save_calibrate(0);
@@ -841,8 +842,11 @@ int main(void) {
 		}
 
 		//PWR_EnterSleepMode();
-
 		//hal delay_ms(1000);
+
+		/* USER CODE END WHILE */
+
+
 		/* USER CODE BEGIN 3 */
 
 	}

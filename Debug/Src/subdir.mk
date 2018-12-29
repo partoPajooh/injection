@@ -7,6 +7,7 @@ C_SRCS += \
 ../Src/ADG508.c \
 ../Src/ADG508T.c \
 ../Src/ADS7816.c \
+../Src/HC138.c \
 ../Src/Termo.c \
 ../Src/colormonitor.c \
 ../Src/function.c \
@@ -21,6 +22,7 @@ OBJS += \
 ./Src/ADG508.o \
 ./Src/ADG508T.o \
 ./Src/ADS7816.o \
+./Src/HC138.o \
 ./Src/Termo.o \
 ./Src/colormonitor.o \
 ./Src/function.o \
@@ -35,6 +37,7 @@ C_DEPS += \
 ./Src/ADG508.d \
 ./Src/ADG508T.d \
 ./Src/ADS7816.d \
+./Src/HC138.d \
 ./Src/Termo.d \
 ./Src/colormonitor.d \
 ./Src/function.d \

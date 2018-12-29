@@ -16,6 +16,7 @@
 "Src/ADG508.o"
 "Src/ADG508T.o"
 "Src/ADS7816.o"
+"Src/HC138.o"
 "Src/Termo.o"
 "Src/colormonitor.o"
 "Src/function.o"

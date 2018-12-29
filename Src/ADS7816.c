@@ -8,7 +8,6 @@
 #include "ADG508.h"
 
 
-
 void Init_ADS7816(void)
 {
 	GPIO_InitTypeDef GPIO_InitStruct;
@@ -42,12 +41,12 @@ void Init_ADS7816(void)
 	HAL_GPIO_Init(ADS_Data_PORT, &GPIO_InitStruct);
 
 	Init_ADG508();
-	setOut(0);
+	setOut508A(0);
 }
 
 uint16_t read_ADS7816S(uint8_t channel)
 {
-	setOut(channel);
+	setOut508A(channel);
 	return read_ADS7816();
 }
 
@@ -100,3 +99,6 @@ uint16_t Dataread(void) {
 	}
 	return d-1;
 }
+
+
+
